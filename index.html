@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8a1d41889d.js" crossorigin="anonymous"></script>
+  <title>Apple - Clone Site by Ger Espinosa</title>
+</head>
+
+<body id="body">
+  <!-- NAV -->
+  <nav class="nav">
+    <ul class="nav-menu">
+      <i class="ri-apple-fill"></i>
+      <li class="menu-component" id="store">Store</li>
+      <li class="menu-component" id="mac">Mac</li>
+      <li class="menu-component" id="iPad">iPad</li>
+      <li class="menu-component" id="iPhone">iPhone</li>
+      <li class="menu-component" id="watch">Watch</li>
+      <li class="menu-component" id="vision">Vision</li>
+      <li class="menu-component" id="airPods">AirPods</li>
+      <li class="menu-component" id="tv">TV & Home</li>
+      <li class="menu-component" id="entertainment">Entertainment</li>
+      <li class="menu-component" id="accesories">Accesories</li>
+      <li class="menu-component" id="support">Support</li>
+      <span class="buttons-responsive">
+        <li class="menu-component responsive-element" id="search"><i class=" fa-solid fa-magnifying-glass"></i></li>
+        <li class="menu-component responsive-element" id="shop"><i class=" ri-shopping-bag-line"></i></li>
+        <li class="menu-component responsive-element" id="equal" onclick="abrirHover()"><i class=" ri-equal-fill"
+            id="equal"></i></li>
+      </span>
+    </ul>
+  </nav>
+
+  <!-- HOVER MENU STORE -->
+  <div class="hover-menu store">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Shop</a></li>
+      <li class="h2-hover"><a href="#">Shop the Latest</a></li>
+      <li class="h2-hover"><a href="#">Mac</a></li>
+      <li class="h2-hover"><a href="#">iPad</a></li>
+      <li class="h2-hover"><a href="#">iPhone</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch</a></li>
+      <li class="h2-hover"><a href="#">Accesories</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Quick Links</a></li>
+      <li class="h4-hover"><a href="#">Find a Store</a></li>
+      <li class="h4-hover"><a href="#">Order Status</a></li>
+      <li class="h4-hover"><a href="#">Apple Trade In</a></li>
+      <li class="h4-hover"><a href="#">Financing</a></li>
+      <li class="h4-hover"><a href="#">College Student Offer</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop Special Stores</a></li>
+      <li class="h4-hover"><a href="#">Certified Refurbished</a></li>
+      <li class="h4-hover"><a href="#">Education</a></li>
+      <li class="h4-hover"><a href="#">Business</a></li>
+      <li class="h4-hover"><a href="#">Veterans and Military</a></li>
+      <li class="h4-hover"><a href="#">Goverment</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU MAC -->
+  <div class="hover-menu mac">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore Max</a></li>
+      <li class="h2-hover"><a href="#">Explore All Mac</a></li>
+      <li class="h2-hover"><a href="#">MacBook Air</a></li>
+      <li class="h2-hover"><a href="#">MacBook Pro</a></li>
+      <li class="h2-hover"><a href="#">iMac</a></li>
+      <li class="h2-hover"><a href="#">Mac mini</a></li>
+      <li class="h2-hover"><a href="#">Mac Studio</a></li>
+      <li class="h2-hover"><a href="#">Mac Pro</a></li>
+      <li class="h2-hover"><a href="#">Displays</a></li>
+      <li class="h4-hover"><a href="#">Compare Mac</a></li>
+      <li class="h4-hover"><a href="#">Mac Does That</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop Mac</a></li>
+      <li class="h4-hover"><a href="#">Shop Mac</a></li>
+      <li class="h4-hover"><a href="#">Mac Accesories</a></li>
+      <li class="h4-hover"><a href="#">Apple Trade In</a></li>
+      <li class="h4-hover"><a href="#">Financing</a></li>
+      <li class="h4-hover"><a href="#">College Student Offer</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from Mac</a></li>
+      <li class="h4-hover"><a href="#">Mac Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+ for Mac</a></li>
+      <li class="h4-hover"><a href="#">macOS Sonoma</a></li>
+      <li class="h4-hover"><a href="#">Continuity</a></li>
+      <li class="h4-hover"><a href="#">iCloud+</a></li>
+      <li class="h4-hover"><a href="#">Mac for Business</a></li>
+      <li class="h4-hover"><a href="#">Education</a></li>
+    </ul>
+  </div>
+  <!-- HOVER MENU IPAD -->
+  <div class="hover-menu ipad">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore Max</a></li>
+      <li class="h2-hover"><a href="#">Explore All iPad</a></li>
+      <li class="h2-hover"><a href="#">iPad Pro</a></li>
+      <li class="h2-hover"><a href="#">iPad Air</a></li>
+      <li class="h2-hover"><a href="#">iPad</a></li>
+      <li class="h2-hover"><a href="#">iPad mini</a></li>
+      <li class="h2-hover"><a href="#">Apple Pencils</a></li>
+      <li class="h2-hover"><a href="#">Keyboards</a></li>
+      <li class="h4-hover"><a href="#">Compare iPad</a></li>
+      <li class="h4-hover"><a href="#">Why iPad</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop iPad</a></li>
+      <li class="h4-hover"><a href="#">Shop iPad</a></li>
+      <li class="h4-hover"><a href="#">iPad Accesories</a></li>
+      <li class="h4-hover"><a href="#">Apple Trade In</a></li>
+      <li class="h4-hover"><a href="#">Financing</a></li>
+      <li class="h4-hover"><a href="#">College Student Offer</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from iPad</a></li>
+      <li class="h4-hover"><a href="#">iPad Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+ for iPad</a></li>
+      <li class="h4-hover"><a href="#">iPadOS 17</a></li>
+      <li class="h4-hover"><a href="#">Apps by Apple</a></li>
+      <li class="h4-hover"><a href="#">iCloud+</a></li>
+      <li class="h4-hover"><a href="#">Education</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU IPHONE -->
+  <div class="hover-menu iphone">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore iPhone</a></li>
+      <li class="h2-hover"><a href="#">Explore All iPhone</a></li>
+      <li class="h2-hover"><a href="#">iPhone 15 Pro</a></li>
+      <li class="h2-hover"><a href="#">iPhone 15</a></li>
+      <li class="h2-hover"><a href="#">iPhone 14</a></li>
+      <li class="h2-hover"><a href="#">iPhone 13</a></li>
+      <li class="h2-hover"><a href="#">iPhone SE</a></li>
+      <li class="h4-hover"><a href="#">Compare iPad</a></li>
+      <li class="h4-hover"><a href="#">Switch from Android</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop iPhone</a></li>
+      <li class="h4-hover"><a href="#">Shop iPhone</a></li>
+      <li class="h4-hover"><a href="#">iPhone Accesories</a></li>
+      <li class="h4-hover"><a href="#">Apple Trade In</a></li>
+      <li class="h4-hover"><a href="#">Carrier Deals at Apple</a></li>
+      <li class="h4-hover"><a href="#">Financing</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from iPhone</a></li>
+      <li class="h4-hover"><a href="#">iPhone Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+ for iPhone</a></li>
+      <li class="h4-hover"><a href="#">iOS 17</a></li>
+      <li class="h4-hover"><a href="#">Apps by Apple</a></li>
+      <li class="h4-hover"><a href="#">iPhone Privacy</a></li>
+      <li class="h4-hover"><a href="#">iCloud+</a></li>
+      <li class="h4-hover"><a href="#">Wallet, Pay, Card</a></li>
+      <li class="h4-hover"><a href="#">Siri</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU WATCH -->
+  <div class="hover-menu watch">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore Watch</a></li>
+      <li class="h2-hover"><a href="#">Explore All Apple Watch</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch Series 9</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch Ultra 2</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch SE</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch Nike</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch Hermés</a></li>
+      <li class="h4-hover"><a href="#">Compare Watch</a></li>
+      <li class="h4-hover"><a href="#">Why Apple Watch</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop Watch</a></li>
+      <li class="h4-hover"><a href="#">Shop Apple Watch</a></li>
+      <li class="h4-hover"><a href="#">Apple Watch Studio</a></li>
+      <li class="h4-hover"><a href="#">Apple Watch Bands</a></li>
+      <li class="h4-hover"><a href="#">Apple Watch Accesories</a></li>
+      <li class="h4-hover"><a href="#">Apple Trade In</a></li>
+      <li class="h4-hover"><a href="#">Financing</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from Watch</a></li>
+      <li class="h4-hover"><a href="#">Apple Watch Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+</a></li>
+      <li class="h4-hover"><a href="#">watchOS 10</a></li>
+      <li class="h4-hover"><a href="#">Apps by Apple</a></li>
+      <li class="h4-hover"><a href="#">Apple Fitness+</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU VISION -->
+  <div class="hover-menu vision">
+  </div>
+
+  <!-- HOVER MENU AIRPODS -->
+  <div class="hover-menu ap">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore AirPods</a></li>
+      <li class="h2-hover"><a href="#">Explore All AirPods</a></li>
+      <li class="h2-hover"><a href="#">AirPods Pro 2nd Generation</a></li>
+      <li class="h2-hover"><a href="#">AirPods 2nd Generation</a></li>
+      <li class="h2-hover"><a href="#">AirPods 3rd Generation</a></li>
+      <li class="h2-hover"><a href="#">AirPods Max</a></li>
+      <li class="h4-hover"><a href="#">Compare Watch</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop AirPods</a></li>
+      <li class="h4-hover"><a href="#">Shop AirPods</a></li>
+      <li class="h4-hover"><a href="#">AirPods Accesories</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from AirPods</a></li>
+      <li class="h4-hover"><a href="#">AirPods Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+ for Headphones</a></li>
+      <li class="h4-hover"><a href="#">Apple Music</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU TV -->
+  <div class="hover-menu tv">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore TV & Home</a></li>
+      <li class="h2-hover"><a href="#">Explore TV & Home</a></li>
+      <li class="h2-hover"><a href="#">Apple TV 4K</a></li>
+      <li class="h2-hover"><a href="#">HomePod</a></li>
+      <li class="h2-hover"><a href="#">HomePod mini</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Shop TV & Home</a></li>
+      <li class="h4-hover"><a href="#">Shop Apple TV 4k</a></li>
+      <li class="h4-hover"><a href="#">Shop HomePod</a></li>
+      <li class="h4-hover"><a href="#">Shop HomePod mini</a></li>
+      <li class="h4-hover"><a href="#">Shop Siri Remote</a></li>
+      <li class="h4-hover"><a href="#">TV & Home Accesories</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">More from TV & Home</a></li>
+      <li class="h4-hover"><a href="#">Apple TV Support</a></li>
+      <li class="h4-hover"><a href="#">HomePod Support</a></li>
+      <li class="h4-hover"><a href="#">AppleCare+</a></li>
+      <li class="h4-hover"><a href="#">Apple TV app</a></li>
+      <li class="h4-hover"><a href="#">Apple TV+</a></li>
+      <li class="h4-hover"><a href="#">Home App</a></li>
+      <li class="h4-hover"><a href="#">Apple Music</a></li>
+      <li class="h4-hover"><a href="#">Siri</a></li>
+      <li class="h4-hover"><a href="#">AirPlay</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU TV -->
+  <div class="hover-menu ent">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore Entertainment</a></li>
+      <li class="h2-hover"><a href="#">Explore Entertainment</a></li>
+      <li class="h2-hover"><a href="#">Apple One</a></li>
+      <li class="h2-hover"><a href="#">Apple TV+</a></li>
+      <li class="h2-hover"><a href="#">Apple Music</a></li>
+      <li class="h2-hover"><a href="#">Apple Arcade</a></li>
+      <li class="h2-hover"><a href="#">Apple Fitness+</a></li>
+      <li class="h2-hover"><a href="#">Apple News+</a></li>
+      <li class="h2-hover"><a href="#">Apple Podcast</a></li>
+      <li class="h2-hover"><a href="#">Apple Books</a></li>
+      <li class="h2-hover"><a href="#">App Store</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Support</a></li>
+      <li class="h4-hover"><a href="#">Apple TV+ Support</a></li>
+      <li class="h4-hover"><a href="#">Apple Music Support</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU ACCESORIES -->
+  <div class="hover-menu acc">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Shop Accesories</a></li>
+      <li class="h2-hover"><a href="#">Shop All Accesories</a></li>
+      <li class="h2-hover"><a href="#">Mac</a></li>
+      <li class="h2-hover"><a href="#">iPad</a></li>
+      <li class="h2-hover"><a href="#">iPhone</a></li>
+      <li class="h2-hover"><a href="#">Apple Watch</a></li>
+      <li class="h2-hover"><a href="#">AirPods</a></li>
+      <li class="h2-hover"><a href="#">TV & Home</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Explore Accesories</a></li>
+      <li class="h4-hover"><a href="#">Made by Apple</a></li>
+      <li class="h4-hover"><a href="#">Beats by Dr. Dre</a></li>
+      <li class="h4-hover"><a href="#">AirTags</a></li>
+    </ul>
+  </div>
+
+  <!-- HOVER MENU SUPPORT -->
+  <div class="hover-menu support">
+    <ul class="hover-big">
+      <li class="h4-hover hover-first"><a href="#">Explore Support</a></li>
+      <li class="h2-hover"><a href="#">iPhone</a></li>
+      <li class="h2-hover"><a href="#">Mac</a></li>
+      <li class="h2-hover"><a href="#">iPad</a></li>
+      <li class="h2-hover"><a href="#">Watch</a></li>
+      <li class="h2-hover"><a href="#">AirPods</a></li>
+      <li class="h2-hover"><a href="#">Music</a></li>
+      <li class="h2-hover"><a href="#">TV</a></li>
+      <li class="h4-hover"><a href="#">Explore Support</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Get Help</a></li>
+      <li class="h4-hover"><a href="#">Community</a></li>
+      <li class="h4-hover"><a href="#">Check Coverage</a></li>
+      <li class="h4-hover"><a href="#">Repair</a></li>
+      <li class="h4-hover"><a href="#">Contact Us</a></li>
+    </ul>
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Helpful Topics</a></li>
+      <li class="h4-hover"><a href="#">Get AppleCare+</a></li>
+      <li class="h4-hover"><a href="#">Apple ID & Password</a></li>
+      <li class="h4-hover"><a href="#">Billing & Subscriptions</a></li>
+      <li class="h4-hover"><a href="#">Find My</a></li>
+      <li class="h4-hover"><a href="#">Accesibility</a></li>
+    </ul>
+  </div>
+
+  <!-- MENU HOVER SEARCH -->
+  <div class="hover-menu search">
+    <!-- <i class=" fa-solid fa-magnifying-glass" style="display: flex;"></i> -->
+    <input type="text" placeholder="Search apple.com">
+    <ul class="hover-normal">
+      <li class="h4-hover hover-first"><a href="#">Quick Links</a></li>
+      <li class="h4-hover"><a href="#">&RightArrow; Find a Store</a></li>
+      <li class="h4-hover"><a href="#">&rightarrow; Apple Vision Pro</a></li>
+      <li class="h4-hover"><a href="#">&rightarrow; AirPods</a></li>
+      <li class="h4-hover"><a href="#">&rightarrow; AirTag</a></li>
+      <li class="h4-hover"><a href="#">&rightarrow; Apple Trade In</a></li>
+    </ul>
+  </div>
+
+  <!-- MENU HOVER SHOP -->
+  <div class="hover-menu shop">
+    <h2>Your Bag is Empty</h2>
+    <p><a href="#">Sign in</a> to see if you have any saved items</p>
+    <ul class="hover-normal">
+      <li class="h4-hover"><a href="#"><i class="ri-instance-line"></i> Orders</a></li>
+      <li class="h4-hover"><a href="#"><i class="ri-bookmark-line"></i> Your Saves</a></li>
+      <li class="h4-hover"><a href="#"><i class="ri-add-circle-line"></i> Account</a></li>
+      <li class="h4-hover"><a href="#"><i class="ri-account-circle-line"></i> Sign in</a></li>
+    </ul>
+  </div>
+
+  <div class="shop-now">
+    <p class="p">
+      Save on Mac or iPad with education pricing and get a gift card up to
+      $150. Gift card offer ends October 2.<span class="index">1</span>
+      <a href="#" class="a">Shop now ></a>
+    </p>
+  </div>
+
+  <!-- MENU HOVER EQUAL -->
+  <div class="hover-menu equal">
+    <ul class="hover-normal">
+      <li id="store">Store</li>
+      <li id="mac">Mac</li>
+      <li id="iPad">iPad</li>
+      <li id="iPhone">iPhone</li>
+      <li id="watch">Watch</li>
+      <li id="vision">Vision</li>
+      <li id="airPods">AirPods</li>
+      <li id="tv">TV & Home</li>
+      <li id="entertainment">Entertainment</li>
+      <li id="accesories">Accesories</li>
+      <li id="support">Support</li>
+    </ul>
+  </div>
+
+
+  <main class="main" id="main">
+    <!-- IPHONE 15 PRO -->
+    <section class="section iphone15-pro">
+      <h1 class="section-title">iPhone 15 Pro</h1>
+      <h2 class="section-subtitle">Titanium. So strong. So light. So Pro.</h2>
+      <div class="links-container">
+        <a href="#" class="a-big">Learn more></a>
+        <a href="#" class="a-big">Buy ></a>
+      </div>
+    </section>
+
+    <!-- IPHONE 15 -->
+    <section class="section iphone15">
+      <h1 class="section-title">iPhone 15</h1>
+      <h2 class="section-subtitle">New camera. New design. Newphoria.</h2>
+      <div class="links-container">
+        <a href="#" class="a-big">Learn more ></a>
+        <a href="#" class="a-big">Buy ></a>
+      </div>
+    </section>
+
+    <!-- APPLE WATCH SERIES 9 -->
+    <section class="section watch-series9">
+      <img class="section-title-img" src="/img/hero_logo_apple_watch_series_9__eg5xcrxghuaa_largetall.png" />
+      <h2 class="section-subtitle">Smarter. Brighter. Mightier.</h2>
+      <div class="links-container">
+        <a href="#" class="a-big">Learn more ></a>
+        <a href="#" class="a-big">Buy ></a>
+      </div>
+    </section>
+    <!-- GRID -->
+    <div class="grid">
+
+      <!-- APPLE WATCH -->
+      <div class="section-small apple-watch-ultra">
+        <img class="section-title-img-grid" src="/img/promo_logo_apple_watch_ultra2__ggg2x39rsvqu_large.png" />
+        <h2 class="section-subtitle-grid">Next level adventure.</h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">Learn more ></a>
+          <a href="#" class="a-grid">Buy ></a>
+        </div>
+      </div>
+
+      <!-- CARBON NEUTRAL -->
+      <div class="section-small carbon">
+        <img class="section-title-img-grid" src="/img/promo_logo_carbon_neutral__dhaee115fxoy_large.png" />
+        <h2 class="section-subtitle-grid">
+          A first for Apple Watch.<br />
+          And Apple.
+        </h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">Learn more ></a>
+          <a href="#" class="a-grid">Watch the film <i class="fa-regular fa-circle-play"></i></a>
+        </div>
+      </div>
+
+      <!-- SHOP WITH US -->
+      <div class="section-small shop-with">
+        <h1 class="section-title-grid">Shop iPhone with us</h1>
+        <h2 class="section-subtitle-grid">Save with trade-in, connect your carrier, and<br> transfer your data, all
+          right
+          here at Apple</h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">Shop iPhone ></a>
+        </div>
+      </div>
+
+      <!-- TRADE IN -->
+      <div class="section-small trade">
+        <img class="section-title-img-grid" src="/img/logo_tradein__d1fpktgipvki_large.png" />
+        <h2 class="section-subtitle-grid">Get &dollar;200-&dollar;650 in credit when<br>
+          you trade in iPhone 11 or higher.<span class="index">2</span></h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">See what your device is worth ></a>
+        </div>
+      </div>
+
+      <!-- AIRPODS -->
+      <div class="section-small airpods">
+        <h1 class="section-title-grid">AirPods Pro</h1>
+        <h2 class="section-subtitle-grid">Adaptative Audio. Now playing.</h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">Learn more ></a>
+          <a href="#" class="a-grid">Buy ></a>
+        </div>
+      </div>
+
+      <!-- APPLE CARD -->
+      <div class="section-small apple-card">
+        <img class="section-title-img-grid" src="/img/logo__dcojfwkzna2q_large.png" />
+        <h2 class="section-subtitle-grid">Get up to 3% Daily Cash back<br>
+          with every purchase.
+        </h2>
+        <div class="links-container-small">
+          <a href="#" class="a-grid">Learn more ></a>
+          <a href="#" class="a-grid">Apply now ></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider">
+      <div class="auto-nav">
+
+      </div>
+
+      <div class="slides">
+        <img src="/img/slider-big/1250x703 (1).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (2).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (3).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (4).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (5).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (6).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (7).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (8).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (9).jpg" alt="" class="slide">
+        <img src="/img/slider-big/1250x703 (10).jpg" alt="" class="slide">
+      </div>
+
+      <div class="slides-responsive">
+        <img src="/img/slider-small/274x593 (1).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (2).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (3).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (4).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (5).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (6).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (7).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (8).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (9).jpg" alt="" class="slide-responsive">
+        <img src="/img/slider-small/274x593 (10).jpg" alt="" class="slide-responsive">
+      </div>
+    </div>
+
+    <div class="manual-nav">
+      <label for="radio1" class="label-btn"></label>
+      <label for="radio2" class="label-btn"></label>
+      <label for="radio3" class="label-btn"></label>
+      <label for="radio4" class="label-btn"></label>
+      <label for="radio5" class="label-btn"></label>
+      <label for="radio6" class="label-btn"></label>
+      <label for="radio7" class="label-btn"></label>
+      <label for="radio8" class="label-btn"></label>
+      <label for="radio9" class="label-btn"></label>
+      <label for="radio10" class="label-btn"></label>
+
+      <i class="ri-pause-circle-line" id="playpause"></i>
+
+    </div>
+    <div class="manual-navResp">
+      <label for="radio1" class="label-btnResp"></label>
+      <label for="radio2" class="label-btnResp"></label>
+      <label for="radio3" class="label-btnResp"></label>
+      <label for="radio4" class="label-btnResp"></label>
+      <label for="radio5" class="label-btnResp"></label>
+      <label for="radio6" class="label-btnResp"></label>
+      <label for="radio7" class="label-btnResp"></label>
+      <label for="radio8" class="label-btnResp"></label>
+      <label for="radio9" class="label-btnResp"></label>
+      <label for="radio10" class="label-btnResp"></label>
+
+      <i class="ri-pause-circle-line" id="playpauseResp"></i>
+
+    </div>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p class="footer-p">1. Qualified Purchasers receive an Apple Gift Card when they purchase an eligible Mac or
+        iPad
+        at a Qualifying Location. Only one Promotion Product per eligible Mac or eligible iPad per Qualified
+        Purchaser.
+        Offer subject to availability. While supplies last. View full terms and conditions of offer <a
+          href=""><span>here.</span></a>
+      </p>
+      <p class="footer-p">2. Trade-in values will vary based on the condition, year, and configuration of your
+        eligible
+        trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to
+        trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device
+        purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device
+        matching the description provided when estimate was made. Sales tax may be assessed on full value of a new
+        device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving
+        this
+        information). Offer may not be available in all stores, and may vary between in-store and online trade-in.
+        Some
+        stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit
+        quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner
+        for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</p>
+      <p class="footer-p">To access and use all Apple Card features and products available only to Apple Card users,
+        you
+        must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS.
+        Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and
+        issued by Goldman Sachs Bank USA, Salt Lake City Branch.</p>
+      <p class="footer-p">If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with
+        questions about Apple Card.</p>
+      <p class="footer-p">Learn more about how Apple Card applications are evaluated at <a
+          href="#"><span>support.apple.com/kb/HT209218.</span></a>
+      </p>
+      <p class="footer-p">A subscription is required for Apple TV+.</p>
+    </div>
+    <hr>
+    <div class="footer-links">
+      <div class="col1">
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Shop and Learn</h5>
+          <li class="footer-links-a"><a href="">Store</a></li>
+          <li class="footer-links-a"><a href="">Mac</a></li>
+          <li class="footer-links-a"><a href="">iPad</a></li>
+          <li class="footer-links-a"><a href="">iPhone</a></li>
+          <li class="footer-links-a"><a href="">Watch</a></li>
+          <li class="footer-links-a"><a href="">Vision</a></li>
+          <li class="footer-links-a"><a href="">AirPods</a></li>
+          <li class="footer-links-a"><a href="">TV & Home</a></li>
+          <li class="footer-links-a"><a href="">AirTag</a></li>
+          <li class="footer-links-a"><a href="">Accesories</a></li>
+          <li class="footer-links-a"><a href="">Gift Cards</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Apple Wallet</h5>
+          <li class="footer-links-a"><a href="">Wallet</a></li>
+          <li class="footer-links-a"><a href="">Apple Card</a></li>
+          <li class="footer-links-a"><a href="">Apple Pay</a></li>
+          <li class="footer-links-a"><a href="">Apple Cash</a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Account</h5>
+          <li class="footer-links-a"><a href="">Manage your Apple ID</a></li>
+          <li class="footer-links-a"><a href="">Apple Store Account</a></li>
+          <li class="footer-links-a"><a href="">iCloud.com</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Entertainment</h5>
+          <li class="footer-links-a"><a href="">Apple One</a></li>
+          <li class="footer-links-a"><a href="">Apple TV&plus;</a></li>
+          <li class="footer-links-a"><a href="">Apple Music</a></li>
+          <li class="footer-links-a"><a href="">Apple Arcade</a></li>
+          <li class="footer-links-a"><a href="">Apple Fitness&plus;</a></li>
+          <li class="footer-links-a"><a href="">Apple News&plus;</a></li>
+          <li class="footer-links-a"><a href="">Apple Podcast</a></li>
+          <li class="footer-links-a"><a href="">Apple Books</a></li>
+          <li class="footer-links-a"><a href="">App Store</a></li>
+        </ul>
+      </div>
+      <div class="col3">
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Apple Store</h5>
+          <li class="footer-links-a"><a href="">Find a Store</a></li>
+          <li class="footer-links-a"><a href="">Genius Bar</a></li>
+          <li class="footer-links-a"><a href="">Today at Apple</a></li>
+          <li class="footer-links-a"><a href="">Apple Camp</a></li>
+          <li class="footer-links-a"><a href="">Apple Store App</a></li>
+          <li class="footer-links-a"><a href="">Certufied Refurbished</a></li>
+          <li class="footer-links-a"><a href="">Apple Trade in</a></li>
+          <li class="footer-links-a"><a href="">Financing</a></li>
+          <li class="footer-links-a"><a href="">Carrier Deals at Apple</a></li>
+          <li class="footer-links-a"><a href="">Order Status</a></li>
+          <li class="footer-links-a"><a href="">Shopping Help</a></li>
+        </ul>
+      </div>
+      <div class="col4">
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">For Business</h5>
+          <li class="footer-links-a"><a href="">Apple and Business</a></li>
+          <li class="footer-links-a"><a href="">Shop for Business</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">For Education</h5>
+          <li class="footer-links-a"><a href="">Apple and Education</a></li>
+          <li class="footer-links-a"><a href="">Shop for K-12</a></li>
+          <li class="footer-links-a"><a href="">Shop for College</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">For Healthcare</h5>
+          <li class="footer-links-a"><a href="">Apple in Healthcare</a></li>
+          <li class="footer-links-a"><a href="">Health on Apple Watch</a></li>
+          <li class="footer-links-a"><a href="">Health Records on iPhone</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">For Goverment</h5>
+          <li class="footer-links-a"><a href="">Shop for Goverment</a></li>
+          <li class="footer-links-a"><a href="">Shop for Veterans and Military</a></li>
+        </ul>
+      </div>
+      <div class="col5">
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">Apple Values</h5>
+          <li class="footer-links-a"><a href="">Accesibility</a></li>
+          <li class="footer-links-a"><a href="">Education</a></li>
+          <li class="footer-links-a"><a href="">Environment</a></li>
+          <li class="footer-links-a"><a href="">Inclusion and Diversity</a></li>
+          <li class="footer-links-a"><a href="">Privacy</a></li>
+          <li class="footer-links-a"><a href="">Racial Equity and Justice</a></li>
+          <li class="footer-links-a"><a href="">Supplier Responsability</a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <h5 class="footer-title">About Apple</h5>
+          <li class="footer-links-a"><a href="">Newsroom</a></li>
+          <li class="footer-links-a"><a href="">Apple Leadership</a></li>
+          <li class="footer-links-a"><a href="">Career Opportunities</a></li>
+          <li class="footer-links-a"><a href="">Investors</a></li>
+          <li class="footer-links-a"><a href="">Ethics & Compliance</a></li>
+          <li class="footer-links-a"><a href="">Events</a></li>
+          <li class="footer-links-a"><a href="">Contact Apple</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="p-small1">More ways to shop:<a href="#" class="a-grid">Find an Apple Store </a>or <a href="#"
+        class="a-grid">other
+        retailer </a>near
+      you.
+      Or call 1-800-MY-APPLE</p>
+    <div class="footer-end">
+      <p class="p-small">Cloned x Ger Espinosa 2023</p>
+      <ul class="footer-terms">
+        <li class="footer-terms-item"><a href="#">Privacy Policy</a></li>
+        <li class="footer-terms-item">|</li>
+        <li class="footer-terms-item"><a href="#">Terms of use</a></li>
+        <li class="footer-terms-item">|</li>
+        <li class="footer-terms-item"><a href="#">Sales and Refund</a></li>
+        <li class="footer-terms-item">|</li>
+        <li class="footer-terms-item"><a href="#">Legal</a></li>
+        <li class="footer-terms-item">|</li>
+        <li class="footer-terms-item"><a href="#">Site Map</a></li>
+      </ul>
+      <a href="#" class="language">United States</a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
