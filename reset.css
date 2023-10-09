@@ -697,6 +697,10 @@ body {
   pointer-events: none;
 } 
 
+.equal{
+  padding: 2em 0;
+}
+
 .search input{
   background: none;
   font-size: 2em;
